@@ -1,0 +1,59 @@
+[gd_resource type="Theme" format=3 uid="uid://u1s1aib6apnh"]
+
+[ext_resource type="FontFile" uid="uid://dx6o7fh2ontam" path="res://Foto/YOUTUBESANSBOLD.OTF" id="1_4erpy"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_44w2e"]
+
+[sub_resource type="Gradient" id="Gradient_256ok"]
+colors = PackedColorArray(0.12705705, 0.13007683, 0.13265052, 1, 0.24115604, 0.24115604, 0.24115601, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_8u1he"]
+gradient = SubResource("Gradient_256ok")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_r03ml"]
+texture = SubResource("GradientTexture1D_8u1he")
+modulate_color = Color(1, 1, 1, 0.74509805)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_256ok"]
+bg_color = Color(0.87652236, 0.26712468, 0.21801588, 0.36862746)
+
+[sub_resource type="Gradient" id="Gradient_kwjlq"]
+colors = PackedColorArray(0.12705705, 0.13007683, 0.13265052, 1, 0.24115604, 0.24115604, 0.24115601, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_256ok"]
+gradient = SubResource("Gradient_kwjlq")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8u1he"]
+texture = SubResource("GradientTexture1D_256ok")
+modulate_color = Color(1, 1, 1, 0.74509805)
+
+[sub_resource type="Gradient" id="Gradient_t1iho"]
+colors = PackedColorArray(0.12705705, 0.13007683, 0.13265052, 1, 0.24115604, 0.24115604, 0.24115601, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_2etfk"]
+gradient = SubResource("Gradient_t1iho")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xgcxj"]
+texture = SubResource("GradientTexture1D_2etfk")
+modulate_color = Color(1, 1, 1, 0.74509805)
+
+[resource]
+CheckBox/colors/checkbox_checked_color = Color(1, 1, 1, 1)
+CheckBox/colors/font_color = Color(1, 1, 1, 1)
+CheckBox/colors/font_hover_color = Color(0.7581918, 0.7581918, 0.7581917, 1)
+CheckBox/colors/font_hover_pressed_color = Color(1, 0.6953072, 0.64682317, 1)
+CheckBox/colors/font_pressed_color = Color(0.80049086, 0.80049074, 0.80049074, 1)
+CheckBox/constants/outline_size = 0
+CheckBox/font_sizes/font_size = 29
+CheckBox/fonts/font = ExtResource("1_4erpy")
+CheckBox/styles/disabled = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/disabled_mirrored = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/focus = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/hover = SubResource("StyleBoxTexture_r03ml")
+CheckBox/styles/hover_mirrored = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/hover_pressed = SubResource("StyleBoxFlat_256ok")
+CheckBox/styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/normal = SubResource("StyleBoxTexture_8u1he")
+CheckBox/styles/normal_mirrored = SubResource("StyleBoxFlat_44w2e")
+CheckBox/styles/pressed = SubResource("StyleBoxTexture_xgcxj")
+CheckBox/styles/pressed_mirrored = SubResource("StyleBoxFlat_44w2e")
