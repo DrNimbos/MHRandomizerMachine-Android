@@ -14,4 +14,4 @@ Web (Itch.io): https://dr-nimbos.itch.io/mh-randomizer-machine
 
 PC: https://github.com/DrNimbos/MHRandomizerMachine-PC
 
-![image](https://github.com/DrNimbos/MHRandomizerMachine-Android/blob/895583d0b5867497d236dcb4018bb295f55cc9f2/Foto/NexusNimbos_white_godot.png)
+![image](https://github.com/DrNimbos/MHRandomizerMachine-Android/blob/d30fbc3c94d6a9246452dcf8d67437f4f699bfa8/Foto/NexusNimbos_white_godot.png)
