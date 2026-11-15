@@ -1,6 +1,6 @@
 # Monster Hunter Randomizer Machine (ANDROID)
 
-![image](https://github.com/DrNimbos/MHRandomizerMachine-Android/blob/895583d0b5867497d236dcb4018bb295f55cc9f2/Foto/UI/Logo.png)
+[![image](https://github.com/DrNimbos/MHRandomizerMachine-Android/blob/895583d0b5867497d236dcb4018bb295f55cc9f2/Foto/UI/Logo.png)](https://github.com/DrNimbos/MHRandomizerMachine-Android/blob/431f2665df61f97b54a109b88db7cd33de7eaa42/Foto/UI/Logo.png)
 
 A simple Monster Hunter challange randomizer made in Godot, this is the android version
 
