@@ -4,7 +4,7 @@ extends Node
 
 @onready var inserir: LineEdit = $"../Select Stuff/Conditions/Inserir"
 @onready var condi_list: VBoxContainer = $"../Select Stuff/Conditions/condições/condi_list"
-const LINE_EDIT_TEMA = preload("res://line_edit_tema_btn.tres")
+const LINE_EDIT_TEMA = preload("res://temas/line_edit_tema_btn.tres")
 
 
 func _ready() -> void:
