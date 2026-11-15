@@ -151,6 +151,8 @@ func rolar():
 		
 	elif monstro_selecionado.a_tempered:
 		temp = a_tempered_array.pick_random()
+	else:
+		temp = ""
 		
 	if condi_hand.l_condi.is_empty():
 		if esp_temp != "":

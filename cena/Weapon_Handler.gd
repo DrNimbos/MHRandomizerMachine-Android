@@ -20,7 +20,7 @@ func _ready() -> void:
 		match GameManager.current_game.name:
 			"Monster Hunter 1 (JP)","Monster Hunter 1 (US)","Monster Hunter G","Monster Hunter Freedom":
 				settings_btn.hide()
-				node_2d.disable_tempered = false
+				node_2d.disable_tempered = true
 			"Monster Hunter 2", "Monster Hunter Freedom", "Monster Hunter Freedom 2", "Monster Hunter Freedom Unite", "Monster Hunter Portable 3", "Monster Hunter 3", "Monster Hunter 3 Ultimate", "Monster Hunter Outlanders":
 
 				settings_btn.show()
@@ -34,7 +34,7 @@ func _ready() -> void:
 				only_apex.hide()
 				only_hyper.hide()
 				only_deviant.hide()
-				node_2d.disable_tempered = false
+				node_2d.disable_tempered = true
 			"Monster Hunter 4", "Monster Hunter 4 Ultimate":
 
 				settings_btn.show()
@@ -48,7 +48,7 @@ func _ready() -> void:
 				only_apex.show()
 				only_hyper.hide()
 				only_deviant.hide()
-				node_2d.disable_tempered = false
+				node_2d.disable_tempered = true
 			"Monster Hunter Generations Ultimate":
 
 				settings_btn.show()
@@ -62,7 +62,7 @@ func _ready() -> void:
 				only_apex.hide()
 				only_hyper.show()
 				only_deviant.show()
-				node_2d.disable_tempered = false
+				node_2d.disable_tempered = true
 			"Monster Hunter Generations":
 
 				settings_btn.show()
@@ -76,7 +76,7 @@ func _ready() -> void:
 				only_apex.hide()
 				only_hyper.hide()
 				only_deviant.show()
-				node_2d.disable_tempered = false
+				node_2d.disable_tempered = true
 			"Monster Hunter World", "Monster Hunter World Iceborne", "Monster Hunter Wilds":
 
 				settings_btn.show()
@@ -90,7 +90,7 @@ func _ready() -> void:
 				only_apex.hide()
 				only_deviant.hide()
 				only_hyper.hide()
-
+				node_2d.disable_tempered = false
 			"Monster Hunter Rise", "Monster Hunter Rise Sunbreak":
 
 				settings_btn.show()
@@ -104,7 +104,7 @@ func _ready() -> void:
 				only_apex.hide()
 				only_hyper.hide()
 				only_deviant.hide()
-				node_2d.disable_tempered = false
+				node_2d.disable_tempered = true
 			"Monster Hunter Frontier":
 
 				settings_btn.show()
@@ -118,7 +118,7 @@ func _ready() -> void:
 				only_apex.hide()
 				only_hyper.hide()
 				only_deviant.hide()
-				node_2d.disable_tempered = false
+				node_2d.disable_tempered = true
 			"Custom":
 
 				settings_btn.show()
@@ -131,5 +131,6 @@ func _ready() -> void:
 				only_musou.show()
 				only_apex.show()
 				only_hyper.show()
+				node_2d.disable_tempered = false
 			_:
 				settings_btn.hide()
